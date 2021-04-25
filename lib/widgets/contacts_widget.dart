@@ -26,14 +26,17 @@ class ContactsWidget extends StatelessWidget {
           SizedBox(
             width: 10,
           ),
-          Text(
+          Expanded(
+              child: Text(
             'Russian Federation, Saint-Petersburg',
             style: TextStyle(
               fontFamily: proxima,
               fontSize: 16,
               color: Colors.black,
             ),
-          )
+            overflow: TextOverflow.ellipsis,
+            maxLines: 2,
+          )),
         ]),
         SizedBox(
           height: 10,

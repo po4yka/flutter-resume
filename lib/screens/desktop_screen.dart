@@ -65,7 +65,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               textAlign: TextAlign.center,
             ),
             Text(
-              'Apps Developer',
+              'Mobile Apps Developer',
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
