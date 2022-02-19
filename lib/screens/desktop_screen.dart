@@ -190,7 +190,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               fontFamilyName: proxima,
               textAlign: TextAlign.center,
               textSize: 16,
-              text: 'Copyright © 2020 My Flutter Profile',
+              text: 'Copyright © 2022 My Flutter Profile',
             ),
             SizedBox(
               height: 70,

@@ -106,6 +106,10 @@ class SkillsWidget extends StatelessWidget {
             ],
           ),
         ),
+        LinearProgressIndicator(
+            value: 0.5,
+            backgroundColor: Colors.white,
+            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
         Padding(
           padding: const EdgeInsets.only(top: 20, bottom: 5),
           child: Row(
@@ -125,10 +129,6 @@ class SkillsWidget extends StatelessWidget {
             ],
           ),
         ),
-        LinearProgressIndicator(
-            value: 0.5,
-            backgroundColor: Colors.white,
-            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
         LinearProgressIndicator(
             value: 0.5,
             backgroundColor: Colors.white,
