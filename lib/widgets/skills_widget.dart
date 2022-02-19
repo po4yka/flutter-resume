@@ -70,6 +70,48 @@ class SkillsWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
+                text: 'Jetpack Compose',
+                textSize: 16,
+                fontFamilyName: proxima,
+                color: Colors.white,
+              ),
+              TextWidget(
+                text: '60%',
+                textSize: 16,
+                color: Colors.white,
+              ),
+            ],
+          ),
+        ),
+        LinearProgressIndicator(
+            value: 0.5,
+            backgroundColor: Colors.white,
+            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
+        Padding(
+          padding: const EdgeInsets.only(top: 20, bottom: 5),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              TextWidget(
+                text: 'KMM',
+                textSize: 16,
+                fontFamilyName: proxima,
+                color: Colors.white,
+              ),
+              TextWidget(
+                text: '50%',
+                textSize: 16,
+                color: Colors.white,
+              ),
+            ],
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(top: 20, bottom: 5),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              TextWidget(
                 text: 'Dart / Flutter',
                 textSize: 16,
                 fontFamilyName: proxima,
@@ -83,6 +125,10 @@ class SkillsWidget extends StatelessWidget {
             ],
           ),
         ),
+        LinearProgressIndicator(
+            value: 0.5,
+            backgroundColor: Colors.white,
+            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
         LinearProgressIndicator(
             value: 0.5,
             backgroundColor: Colors.white,

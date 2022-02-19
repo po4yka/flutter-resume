@@ -20,7 +20,7 @@ class ExperienceWidget extends StatelessWidget {
         ),
         TextWidget(
           padding: EdgeInsets.only(top: 10),
-          text: 'Junior Android Developer',
+          text: 'Android Developer',
           color: Color(0xff61AAF1),
           textSize: 30,
         ),
@@ -29,7 +29,7 @@ class ExperienceWidget extends StatelessWidget {
           color: Colors.white,
           fontFamilyName: proxima,
           textSize: 18,
-          text: 'Mail.ru Group, VK     2021 March - Present',
+          text: 'VK     2021 March - Present',
         ),
       ],
     );
